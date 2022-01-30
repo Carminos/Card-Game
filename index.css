@@ -1,0 +1,125 @@
+*{
+    background-color: lightslategrey;
+    font-family: 'BioRhyme', serif;
+    color: white; 
+    font-size: 60px; 
+    justify-content: center;
+    overflow: hidden;
+}
+.scoreboard{
+    display: flex;
+    justify-content: left; 
+}
+.scoreboard .rounds{
+    font-size: 40px;
+    color: rgb(78, 83, 85);
+}
+.winner{
+    color: black; 
+    font-size: 40px;
+}
+.scoreboard button{
+    color: white;
+    background: palevioletred;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 30px;
+    display: none;
+}
+.cards{
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.overlay1{
+    background: transparent;
+    height: 245px;
+    width: 185px;
+    position: absolute;
+    transition: 1.5 ease-in;
+    border-radius: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 20px;
+}
+.overlay1:hover{
+    background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8));
+}
+.overlay3{
+    background: transparent;
+    height: 245px;
+    width: 185px;
+    position: absolute;
+    transition: 1.5 ease-in;
+    border-radius: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 20px;
+}
+.overlay3:hover{
+    background: linear-gradient(rgb(228, 255, 109, 0.7),  rgb(255, 173, 66, 0.7));
+}
+.overlay4{
+    background: transparent;
+    height: 245px;
+    width: 185px;
+    position: absolute;
+    transition: 1.5 ease-in;
+    border-radius: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 20px;
+}
+.overlay4:hover{
+    background-image: linear-gradient(rgb(240, 244, 164, 0.8), rgb(172, 252, 217, 0.8));
+}
+.overlay2{
+    background: transparent;
+    height: 245px;
+    width: 185px;
+    position: absolute;
+    transition: 1.5 ease-in;
+    border-radius: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 20px;
+}
+.overlay2:hover{
+    background-image: linear-gradient(rgb(97, 250, 116, 0.8), rgb(28, 253, 214, 0.8));  
+}
+.button{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    justify-content: center; 
+    cursor: pointer; 
+    border-color: honeydew;
+}
+h1{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+.user-score, .computer-score{
+    font-size: 30px;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.user-numbers, .computer-numbers{
+    font-size: 30px;
+    color: white; 
+    display: inline-block;
+    padding: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+p{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+.display-choices  .user-choice, .computer-choice{
+    font-size:30px;
+    color: white; 
+}
+
