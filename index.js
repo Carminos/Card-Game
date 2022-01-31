@@ -23,8 +23,6 @@ const computerArray = [];
 
 btn.forEach(function(button){
     button.addEventListener('click', usergetNumber);
-    rounds++
-    rounds_div.innerHTML = "Rounds: " + rounds;
 });
 
 // Run a randomized number from 1-10 whenever user clicks a button and add it 
@@ -39,6 +37,8 @@ function usergetNumber(){
     
     userScore.innerHTML = "Your total: " + usertotal;
     computergetNumber();
+    rounds++
+    rounds_div.innerHTML = "Rounds: " + rounds;
     checkWinner();
 };
 
